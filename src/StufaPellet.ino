@@ -313,12 +313,6 @@ void saveConfig(){
 // Eventi wifi
 void startConnections(uint32_t timeout) {  
   initTelegramBot();  
-  //String ssid = "PuccosNET2";    
-  //String pass = "Tole76tnt";   
-  //String token = "488075445:AAFLd-B-spUviVfhMTQFWrRApG7t4gIPSWQ";   // REPLACE myToken WITH YOUR TELEGRAM BOT TOKEN
-  // Serial.println(WiFi.SSID());
-  // Serial.println(WiFi.psk());
-  // Serial.println(token);
 
   uint32_t wifiTimeout = millis();
   Serial.printf("\nTry to connect to %s \n", ssid.c_str());      
